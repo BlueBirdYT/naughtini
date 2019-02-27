@@ -175,7 +175,7 @@ class NSFW():
         await ctx.send(Language.get("nsfw.results", ctx).format(image_count, count, tags, "\n".join(images)))
 
 def setup(bot):
-bot.add_cog(NSFW(bot))
+     bot.add_cog(NSFW(bot))
 
 
 
