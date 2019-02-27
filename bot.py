@@ -1,7 +1,6 @@
 import discord
 import random
 import json
-
 from discord.ext import commands
 from utils.tools import *
 from utils.config import Config
